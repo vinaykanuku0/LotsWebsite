@@ -1,0 +1,1533 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  /* min-height: 100vh; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.scroll-container {
+  width: 100%;
+  height: 300px;
+  /* Adjust the height as per your requirement */
+  overflow: auto;
+  /* Enable scrolling */
+}
+
+.css-1heeqa0::-webkit-scrollbar {
+  display: none;
+}
+
+.css-1iwr12w {
+  border: none !important;
+}
+
+.css-1wvake5 {
+  border: none !important;
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-: inset 0 0 5px grey;
+  border-radius: 10px;
+  background-color: #fff;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  /* background: #7f4afc; */
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  /* background: #7f4afc; */
+}
+
+
+.homeBack {
+  background-image: url("./Components//Authentication/Images/banner.png");
+  background-repeat: no-repeat;
+  /* background-color: white; */
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+}
+
+
+.lETSBUILD {
+  background-image: url("./Components//Authentication/Images/LETSbUILD.svg");
+  background-repeat: no-repeat;
+  /* background-color: white; */
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+}
+
+.Foot {
+  background-image: url("./Components//Authentication/Images/Foot.svg");
+  background-repeat: no-repeat;
+  /* background-color: white; */
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+}
+
+/* Handle on hover */
+/* ::-webkit-scrollbar-thumb:hover {
+  background: #223947;
+} */
+@media (max-width:384px) {
+  .addtext {
+    display: none;
+  }
+
+  .addicon {
+    display: block;
+  }
+
+  .hamburg {
+    display: block;
+  }
+
+  .imageResp {
+    display: block;
+  }
+
+  .forgetImage {
+    height: 70vh;
+    width: 70vw;
+  }
+
+
+  .forgetImage1 {
+    display: none;
+  }
+
+  .footer {
+    flex-direction: column;
+  }
+
+  .imageSize {
+
+    height: 300px;
+    /* width: 300px; */
+  }
+
+  .loginRemainder {
+    flex-direction: column;
+  }
+
+  .companyBackground {
+    display: none;
+  }
+
+  .solar {
+    display: none;
+  }
+
+  .serviceOur {
+    margin-top: 280px;
+    /* background-color: #000; */
+  }
+
+  .importantLinks {
+    display: flex;
+
+    align-items: center;
+  }
+
+  .companyPAdding {
+    padding: 15px;
+  }
+
+  .landing-feature {
+    /* background: #084969; */
+
+    padding-bottom: 300px;
+    padding-left: 50px;
+    padding-right: 30px;
+    border-radius: 20px;
+
+  }
+
+  .AccessImg {
+    width: 55%;
+  }
+
+  .Unauthorised {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 40px;
+  }
+
+  .cardMargin {
+    margin-top: 20px;
+  }
+  .cardPapulation {
+    margin-top: 8px;
+  }
+
+  .dashboardCard1 {
+    /* background-color: #2aca22; */
+    height: 25vh;
+  }
+
+  .individualCard {
+    margin-top: 20px;
+    /* background-color: #2aca22; */
+    height: 350px;
+  }
+
+  .tdBefore {
+    font-size: 11px;
+  }
+
+  .pivoted {
+    font-size: 11px;
+  }
+
+  .dashboardTable {
+    height: 36vh;
+    overflow-y: scroll;
+  }
+
+  .imgWidth {
+    width: 80vw;
+  }
+}
+
+@media (min-width: 384px) and (max-width:576px) {
+  .addtext {
+    display: none;
+  }
+
+  .addicon {
+    display: block;
+  }
+
+  .marginTopVh {
+    margin-top: 15vh;
+  }
+
+  .imgWidth {
+    width: 55vw;
+  }
+
+  .tdBefore {
+    font-size: 12px;
+  }
+
+  .pivoted {
+    font-size: 12px;
+  }
+
+  .tableHeight {
+    height: 66vh;
+    overflow-y: scroll;
+  }
+
+  .hamburg {
+    display: block;
+  }
+
+  .imageResp {
+    display: block;
+  }
+
+  .forgetImage {
+    height: 70vh;
+    width: 70vw;
+  }
+
+
+  .forgetImage1 {
+    display: none;
+  }
+
+  .footer {
+    flex-direction: column;
+  }
+
+  .imageSize {
+
+    height: 300px;
+    /* width: 300px; */
+  }
+
+  .loginRemainder {
+    flex-direction: column;
+  }
+
+  .companyBackground {
+    display: none;
+  }
+
+  .solar {
+    display: none;
+  }
+
+  .serviceOur {
+    margin-top: 200px;
+  }
+
+  .companyPAdding {
+    padding: 20px;
+  }
+
+  .landing-feature {
+    /* background: #084969; */
+
+    padding-bottom: 300px;
+    padding-left: 50px;
+    padding-right: 30px;
+    border-radius: 20px;
+
+  }
+
+  .AccessImg {
+    width: 55%;
+  }
+
+  .Unauthorised {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 50px;
+  }
+
+  .cardMargin {
+    margin-top: 20px;
+  }
+
+  .dashboardCard1 {
+    /* background-color: #2aca22; */
+    height: 25vh;
+  }
+
+  .individualCard {
+    margin-top: 20px;
+    /* background-color: #2aca22; */
+    height: 350px;
+  }
+
+  .dashboardTable {
+    height: 30vh;
+    overflow-y: auto;
+  }
+
+  .imgWidth {
+    width: 80vw;
+  }
+
+}
+
+@media (min-width: 576px) and (max-width: 768px) {
+  .addtext {
+    display: none;
+  }
+
+  .addicon {
+    display: block;
+  }
+
+  .imgWidth {
+    width: 25vw;
+  }
+
+  td {
+
+    background-color: #fff;
+    color: #000;
+    /* font-weight: bolder; */
+
+  }
+
+  th {
+    text-align: justify;
+    padding: 8px;
+    background-color: #fff;
+    color: #000;
+    border-radius: 25px;
+    /* font-size: 16px; */
+    /* font-weight: bold; */
+  }
+
+  .dashboardTable {
+    height: 35vh;
+    overflow-y: auto;
+  }
+
+  .cardMargin {
+    margin-top: 20px;
+  }
+
+  .dashboardCard1 {
+    /* background-color: #2aca22; */
+    height: 20vh;
+  }
+
+  .individualCard {
+    margin-top: 20px;
+    /* background-color: #2aca22; */
+    height: 300px;
+  }
+
+  .tableHeight {
+    height: 62vh;
+    overflow-y: scroll;
+  }
+
+  .forgetImage1 {
+    display: none;
+  }
+
+  .imageResp {
+    display: block;
+  }
+
+  .hamburg {
+    display: block;
+  }
+
+  .forgetImage {
+    height: 70vh;
+    width: 60vw;
+  }
+
+  .footer {
+    flex-direction: column;
+  }
+
+  .marginBottom {
+    margin-bottom: 100px;
+  }
+
+  .imageSize {
+
+    height: 350px;
+    /* width: 600px; */
+  }
+
+  .loginRemainder {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .companyBackground {
+    display: none;
+
+  }
+
+  .serviceOur {
+    margin-top: 200px;
+  }
+
+  .importantLinks {
+    display: flex;
+
+    align-items: center;
+  }
+
+  .solar {
+    display: none;
+  }
+
+
+  .companyPAdding {
+    padding: 20px;
+  }
+
+
+  .landing-feature {
+    /* background: #084969; */
+
+    padding-bottom: 160px;
+    padding-left: 50px;
+    padding-right: 30px;
+    border-radius: 20px;
+
+  }
+
+  .Unauthorised {
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 60px;
+  }
+
+  .AccessImg {
+    width: 50%;
+  }
+
+  .Unauthorised {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 50px;
+  }
+
+  .marginTopVh {
+    margin-top: 15vh;
+  }
+
+  .imgWidth {
+    width: 55vw;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  .addtext {
+    display: block;
+  }
+
+  .addicon {
+    display: none;
+  }
+
+  tr {
+    border: 1px solid #d7d0d0;
+  }
+
+  td {
+
+    background-color: #fff;
+    color: #000;
+    /* font-weight: bolder; */
+
+  }
+
+  th {
+    text-align: justify;
+    padding: 8px;
+    background-color: #fff;
+    color: #000;
+    border-radius: 25px;
+    /* font-size: 16px; */
+    /* font-weight: bold; */
+  }
+
+  .dashboardTable {
+    height: 29vw;
+    overflow-y: auto;
+  }
+
+  .cardMargin {
+    margin-top: 20px;
+  }
+
+  .dashboardCard1 {
+    /* background-color: #2aca22; */
+    height: 25vh;
+  }
+
+  .individualCard {
+    margin-top: 20px;
+    /* background-color: #2aca22; */
+    height: 350px;
+  }
+
+  .tableHeight {
+
+    height: 62vh;
+    overflow-y: scroll;
+  }
+
+  .forgetImage1 {
+    display: none;
+
+  }
+
+  .imageResp {
+    display: block;
+  }
+
+  .hamburg {
+    display: block;
+  }
+
+
+
+  .LoginImage {
+    height: 70vh;
+    width: 40vw;
+  }
+
+  .forgetImage {
+    height: 70vh;
+    width: 40vw;
+  }
+
+  .footer {
+    flex-direction: column;
+  }
+
+  .imageSize {
+
+    height: 400px;
+    /* width: 500px; */
+  }
+
+  .loginRemainder {
+    flex-direction: column;
+  }
+
+  .companyBackground {
+    display: none;
+
+  }
+
+  .solar {
+    display: none;
+  }
+
+  .serviceOur {
+    margin-top: 200px;
+  }
+
+  .companyPAdding {
+    padding: 10px;
+  }
+
+  .ServicesContainer {
+    display: flex;
+  }
+
+  .landing-feature {
+    /* background: #084969; */
+
+    padding-bottom: 50px;
+    padding-left: 50px;
+    padding-right: 30px;
+    border-radius: 20px;
+
+  }
+
+
+  .AccessImg {
+    width: 40%;
+  }
+
+  .Unauthorised {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 50px;
+  }
+
+  .marginTopVh {
+    margin-top: 15vh;
+  }
+
+  .imgWidth {
+    width: 45vw;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1024px) {
+  .companyPAdding {
+    padding: 40px;
+  }
+
+  .addtext {
+    display: block;
+  }
+
+  .addicon {
+    display: none;
+  }
+
+  tr {
+    border: 1px solid #d7d0d0;
+  }
+
+  td {
+
+    background-color: #fff;
+    color: #000;
+    /* font-weight: bolder; */
+
+  }
+
+  th {
+    text-align: justify;
+    padding: 8px;
+    background-color: #fff;
+    color: #000;
+    border-radius: 25px;
+    /* font-size: 16px; */
+    /* font-weight: bold; */
+  }
+
+  .dashboardTable {
+    height: 40vh;
+    overflow-y: auto;
+  }
+
+  .cardMargin {
+    margin-top: 20px;
+  }
+
+  .dashboardCard1 {
+    /* background-color: #2aca22; */
+    height: 25vh;
+  }
+
+  .individualCard {
+    /* background-color: #2aca22; */
+    height: 350px;
+  }
+
+  .tableHeight {
+    height: 62vh;
+    overflow-y: scroll;
+  }
+
+  .hamburg {
+    display: none;
+  }
+
+  .serviceOur {
+    margin-top: 200px;
+  }
+
+  .importantLinks {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+
+  .imageResp {
+    display: none;
+  }
+
+  .LoginImage {
+    height: 70vh;
+    width: 40vw;
+  }
+
+  .forgetImage {
+    height: 70vh;
+    width: 35vw;
+  }
+
+  .forgetImage1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .footer {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .imageSize {
+
+    height: 600px;
+    /* width: 750px; */
+  }
+
+  .loginRemainder {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .companyBackground {
+    width: 350px;
+    height: 600px;
+    border-radius: 0 20rem 20rem 0;
+    background: #AFD5EA4D;
+
+    justify-content: space-around;
+  }
+
+  .ServicesContainer {
+    display: flex;
+  }
+
+  .landing-feature {
+    /* background: #084969; */
+
+    padding-bottom: 80px;
+    padding-left: 50px;
+    padding-right: 30px;
+    border-radius: 20px;
+
+  }
+
+  .AccessImg {
+    width: 35%;
+  }
+
+  .Unauthorised {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 50px;
+  }
+
+  .marginTopVh {
+    margin-top: 15vh;
+  }
+
+  .imgWidth {
+    width: 40vw;
+  }
+}
+
+@media (min-width: 1024px) and (max-width: 1200px) {
+  .companyPAdding {
+    padding: 20px;
+  }
+
+  .addtext {
+    display: block;
+  }
+
+  .addicon {
+    display: none;
+  }
+
+  .marginRight {
+    margin-right: 10px;
+  }
+
+  tr {
+    border: 1px solid #d7d0d0;
+  }
+
+  td {
+
+    background-color: #fff;
+    color: #000;
+    /* font-weight: bolder; */
+
+  }
+
+  th {
+    text-align: justify;
+    padding: 8px;
+    background-color: #fff;
+    color: #000;
+    border-radius: 25px;
+    /* font-size: 16px; */
+    /* font-weight: bold; */
+  }
+
+  .dashboardTable {
+    height: 250px;
+    overflow-y: auto;
+  }
+
+  .cardMargin {
+    margin-top: 20px;
+  }
+
+  .dashboardCard1 {
+    /* background-color: #2aca22; */
+    height: 25vw;
+  }
+
+  .individualCard {
+    /* background-color: #2aca22; */
+    height: 350px;
+  }
+
+  .tableHeight {
+    height: 62vh;
+    overflow-y: scroll;
+  }
+
+  .hamburg {
+    display: none;
+  }
+
+  .imageResp {
+    display: none;
+  }
+
+  .LoginImage {
+    height: 75vh;
+    width: 35vw;
+  }
+
+  .forgetImage {
+    height: 70vh;
+    width: 35vw;
+  }
+
+  .AccessImg {
+    width: 25%;
+  }
+
+  .forgetImage1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .footer {
+    display: flex;
+    justify-content: space-around;
+
+  }
+
+  .imageSize {
+
+    height: 600px;
+    /* width: 1050px; */
+  }
+
+  .loginRemainder {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .serviceOur {
+    margin-top: 200px;
+  }
+
+  .companyBackground {
+    width: 350px;
+    height: 600px;
+    border-radius: 0 20rem 20rem 0;
+    background: #AFD5EA4D;
+
+    justify-content: space-around;
+  }
+
+  .ServicesContainer {
+    display: flex;
+  }
+
+  .landing-feature {
+    /* background: #084969; */
+
+    padding-bottom: 80px;
+    padding-left: 50px;
+    padding-right: 30px;
+    border-radius: 20px;
+
+  }
+
+  .importantLinks {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .Unauthorised {
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 50px;
+  }
+
+  .marginTopVh {
+    margin-top: 14vh;
+  }
+
+  .imgWidth {
+    width: 40vw;
+  }
+
+
+}
+
+@media (min-width: 1200px) {
+  .companyPAdding {
+    padding: 10px;
+  }
+
+  .addtext {
+    display: block;
+  }
+
+  .addicon {
+    display: none;
+  }
+
+  .marginTopVh {
+    margin-top: 14vh;
+  }
+
+  .marginRight {
+    margin-right: 10px;
+  }
+
+  .dashboardTable {
+    height: 30vh;
+    overflow-y: auto;
+
+  }
+
+  .dashboardCard {
+    /* background-color: #2aca22; */
+    height: 350px;
+  }
+
+  .dashboardCard1 {
+    /* background-color: #2aca22; */
+    height: 350px;
+  }
+
+  .tableHeight {
+    height: 63vh;
+    overflow-y: scroll;
+  }
+
+  .landing-feature {
+    /* background: #084969; */
+
+    padding-bottom: 80px;
+    padding-left: 50px;
+    padding-right: 30px;
+    border-radius: 20px;
+
+  }
+
+  .importantLinks {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .AccessImg {
+    width: 25%;
+  }
+
+  .LoginImage {
+    height: 75vh;
+    width: 35vw;
+  }
+
+  .hamburg {
+    display: none;
+    background-color: #000;
+  }
+
+  .forgetImage1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+
+  .forgetImage {
+    height: 70vh;
+    width: 35vw;
+  }
+
+  .footer {
+    display: flex;
+    justify-content: space-evenly;
+
+  }
+
+  .serviceOur {
+    margin-top: 200px;
+  }
+
+
+  .imageSize {
+
+    height: 600px;
+    /* width: 1050px; */
+  }
+
+  .loginRemainder {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .companyBackground {
+    width: 350px;
+    height: 600px;
+    border-radius: 0 20rem 20rem 0;
+    background: #AFD5EA4D;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+
+  .ServicesContainer {
+    display: flex;
+  }
+
+  .HomeCard {
+    height: 25vh;
+  }
+
+  .Unauthorised {
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 60px;
+  }
+
+  tr {
+    border: 1px solid #d7d0d0;
+  }
+
+  td {
+
+    /* background-color: #fff; */
+    color: #000;
+    /* font-weight: bolder; */
+
+  }
+
+  th {
+    text-align: justify;
+    padding: 6px;
+    background-color: #fff;
+    color: #000;
+    border-radius: 25px;
+    font-size: 15px !important;
+    font-weight: bold;
+  }
+
+  .imgWidth {
+    width: 40vw;
+  }
+
+}
+
+@media (max-width:640px) {
+  .arrow {
+    display: none;
+
+  }
+
+  @media screen and (max-width: 40em) {
+    .responsiveTable tbody tr {
+      border: none !important;
+      border-bottom: 1px solid #eee !important;
+      padding: 0.25em;
+    }
+  }
+
+}
+
+
+
+
+.main-content {
+  display: flex;
+  /* height: 100%; */
+  /* min-height: calc(100vh - 75px); */
+}
+
+.leftMenuTogggle {
+  position: absolute;
+  display: flex;
+  top: 20px;
+  left: 10px;
+  /* color: #fff; */
+}
+
+.ps-menuitem-root a:hover {
+  /* Hoverd menu*/
+  color: #000;
+  background-color: #fff !important;
+
+  border-radius: 30px 0px 0px 30px;
+
+
+}
+
+.ps-menuitem-root a:hover .ps-menu-icon {
+  /* padding: 10px !important; */
+
+  background-color: black;
+  color: #fff;
+  border-radius: 20px !important;
+  /* transition: 0.5s; */
+}
+
+.ps-menuitem-root.active a .ps-menu-icon {
+  /* padding: 10px !important; */
+
+  background-color: #D240A7;
+  color: #fff;
+  border-radius: 20px !important;
+  transition: 0.5s;
+}
+
+
+
+
+.logout {
+  padding: 10px 20px;
+  border-radius: 10px;
+  background-color: white;
+  color: #7f4afc;
+  font-weight: 600;
+
+  /* font-weight: 600; */
+}
+
+.ps-menuitem-root.active a .ps-menu-label {
+  color: #D240A7;
+}
+
+.ps-menuitem-root.active a::before {
+  content: "";
+  position: absolute;
+  top: -30px;
+  right: 0;
+  width: 30px;
+  height: 30px;
+
+  border-radius: 50%;
+  box-shadow: 15px 15px 0 #fff;
+}
+
+.img1 {
+  height: 60vh;
+  object-fit: cover;
+}
+
+
+.img2 {
+  height: 70vh;
+  object-fit: cover;
+}
+
+.img3 {
+  height: 55vh;
+  object-fit: cover;
+}
+
+.ps-menuitem-root.active a::after {
+  content: "";
+  position: absolute;
+  bottom: -30px;
+  right: 0;
+  width: 30px;
+  height: 30px;
+  /* background-color: #000; */
+  border-radius: 50%;
+  box-shadow: 15px -15px 0 #fff;
+
+}
+
+.css-1tqrhto.active a::before {
+  content: "";
+  position: absolute;
+  top: -22px;
+  right: 0;
+  width: 30px;
+  height: 30px;
+  /* background-color: #000; */
+  border-radius: 50%;
+  box-shadow: 15px 15px 0 #fff;
+}
+
+.css-1tqrhto.active a::after {
+  content: "";
+  position: absolute;
+  bottom: -20px;
+  right: 0;
+  width: 30px;
+  height: 30px;
+  /* background-color: #da1515; */
+  border-radius: 50%;
+  box-shadow: 15px -15px 0 #fff;
+}
+
+.css-btqki4>.ps-menu-button {
+  border-radius: 30px 0px 0px 30px !important;
+
+}
+
+.css-4uoopx>.ps-menu-button {
+  height: 7vh !important;
+  padding-left: 10px !important;
+}
+
+.css-qugdd0>.ps-menu-button {
+  padding-left: 10px !important;
+}
+
+.ps-menuitem-root.active a {
+  color: #000;
+  background-color: #fff;
+
+}
+
+li.ps-menuitem-root li.ps-menuitem-root {
+  background-color: #7f4afc;
+
+  /* min-height: 15vh; */
+  /* Submenu background color*/
+
+}
+
+.ps-submenu-content {
+  background-color: #7f4afc;
+
+}
+
+.css-z5rm24 {
+  background-color: #7f4afc !important;
+
+}
+
+.css-z5rm242 {
+  background-color: #7f4afc !important;
+}
+
+li.ps-menuitem-root li.ps-menuitem-root a:hover {
+  background-color: #7f4afc;
+  /* Sub menu hovered color */
+  /* background-image: linear-gradient(to right, #7f4afc, #c2aafa); */
+
+  border-radius: 30px 0px 0px 30px;
+
+
+}
+
+
+
+.addbtn {
+  background-color: #7f4afc;
+  border: none;
+  color: white;
+  border-radius: 5px;
+  padding: 7px 10px;
+  cursor: pointer;
+}
+
+.theamColor {
+  background-image: linear-gradient(to right, #7f4afc, #7f4afc);
+
+}
+
+.cancelbtn {
+  background-color: #ef5258;
+  border: none;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.vline {
+  border-left: 2px solid #8F8B8B;
+  height: 20px;
+}
+
+.sub:hover {
+  color: #084969;
+}
+
+.sub {
+  color: #8F8B8B;
+}
+
+.buttonClass {
+  background-image: linear-gradient(to top left, white, #024769);
+}
+
+.images:hover {
+  transform: scale(1.1);
+}
+
+.images {
+  transition: transform 0.5s;
+}
+
+.css-1tqrhto>.ps-menu-button {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  height: 50px;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  color: #fff;
+  box-sizing: border-box;
+  cursor: pointer;
+  padding-right: 20px;
+  padding-left: 10px !important;
+  border-radius: 30px 0px 0px 30px;
+
+}
+
+.css-pjtha9 {
+
+  border-right-style: none !important;
+
+}
+
+.css-1vbkosb {
+  border-right-style: none !important;
+}
+
+.css-ewdv3l {
+  list-style-type: none;
+  padding: 0px;
+  margin: 0;
+  min-height: 28vh;
+}
+
+
+/* .addButton {
+  font-weight: bold;
+  border-radius: 10px;
+  padding: 10px 20px 10px 20px;
+  background-color: white;
+  color: black;
+  cursor: pointer;
+  box-shadow: 0px 5px 5px 2px rgba(8, 8, 8, 0.25);
+  transition: transform 0.5s;
+} */
+
+.addButton {
+  font-weight: bold;
+  border-radius: 10px;
+  padding: 10px 18px 10px 18px;
+  background-color: white;
+  color: black;
+  cursor: pointer;
+  box-shadow: 1px 1px 1px 2px rgba(8, 8, 8, 0.25);
+  transition: transform 0.5s;
+  margin-top: 3px;
+}
+
+.emptyAdd {
+  padding: 10px 20px 10px 20px;
+}
+
+.react-datepicker-wrapper {
+  display: flex !important;
+  padding: 0;
+  border: 0;
+}
+
+
+/* 
+.addButton:hover {
+  border-radius: 10px;
+  padding: 10px 20px 10px 20px;
+  background-color: #7f4afc;
+  color: white;
+  cursor: pointer;
+  transform: scale(1.1);
+  
+} */
+
+
+
+.css-13cymwt-control {
+  border-style: none !important
+}
+
+
+
+.shadow {
+  box-shadow: 10px #000;
+}
+
+.smallRound {
+  margin-left: 20px;
+  /* border-right: none; */
+  width: 150px;
+  height: 270px;
+  border-radius: 12rem 0 0 12rem;
+  border: 1px solid #024769;
+}
+
+.backgroundForCard {
+  width: 700px;
+  height: 600px;
+  border-radius: 30rem;
+  background: #AFD5EA4D;
+}
+
+.table-container {
+  position: relative;
+}
+
+.header {
+  position: sticky;
+  top: 0;
+  background-color: #fff;
+  /* Set background color as needed */
+  z-index: 1;
+  /* Ensure the header appears above the scrollable content */
+}
+
+
+
+.testMonalcard {
+  background-image: url("./Images//gridicons_quote.png");
+  background-repeat: no-repeat;
+  background-color: white;
+  background-size: 150px;
+  background-position-x: 20px;
+}
+
+.ContactUs {
+  background-image: url("./Images//contact-us.jpg");
+  background-repeat: no-repeat;
+  background-color: white;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  /* background-size: 100px; */
+  /* background-position-x: 20px; */
+}
+
+tr {
+  border: 1px solid #d7d0d0 !important;
+}
+
+.salesButton:hover {
+  background-color: white;
+  color: #000;
+}
+
+.salesButton {
+  /* background-color: white; */
+  color: #fff;
+}
